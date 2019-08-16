@@ -1,0 +1,453 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="/static/style/plugins.xsl" ?>
+<plugins>
+    <pyqgis_plugin name="QuickWKT" version="3.1" plugin_id="11">
+        <description><![CDATA[Quick WKT/WKB viewer, this Qgis Plugin opens a dialog where the user can paste (E)WKT and WKB code and see it on the map. Pasted data are stored in a temporay (memory) layer and are completely lost when the user quits QGIS.]]></description>
+        <about><![CDATA[Quick WKT/WKB is a plugin to easily show WKT/WKB data into QGIS. It also provides some utilities function and adds them to iface (see the about tab in the plugin&#39;s dialog for details).]]></about>
+        <version>3.1</version>
+        <trusted>True</trusted>
+        <qgis_minimum_version>3.0.0</qgis_minimum_version>
+        <qgis_maximum_version>3.99.0</qgis_maximum_version>
+        <homepage><![CDATA[http://www.itopen.it/2010/10/21/wkt-on-the-fly-qgis-plugin/]]></homepage>
+        <file_name>QuickWKT.3.1.zip</file_name>
+        <icon>/static/packages/2016/quickwkt_icon_qsf96s5.png</icon>
+        <author_name><![CDATA[Alessandro Pasotti]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/QuickWKT/version/3.1/download/</download_url>
+        <uploaded_by><![CDATA[elpaso]]></uploaded_by>
+        <create_date>2018-05-30T06:35:58.436556</create_date>
+        <update_date>2018-05-30T06:35:58.436556</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[https://github.com/elpaso/quickwkt/issues]]></tracker>
+        <repository><![CDATA[https://github.com/elpaso/quickwkt]]></repository>
+        <tags><![CDATA[viewer,wkt]]></tags>
+        <downloads>85936</downloads>
+        <average_vote>4.74129756384</average_vote>
+        <rating_votes>58</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin><pyqgis_plugin name="Memory Layer Saver" version="4.0.4" plugin_id="20">
+        <description><![CDATA[Makes layers with memory data providers persistent]]></description>
+        <about><![CDATA[Makes layers with memory data providers persistent
+so that they are restored when a project is closed and reopened.
+The memory provider data is saved in a portable binary format (QDataStream)
+that is saved with extension .mldata alongside the project file.]]></about>
+        <version>4.0.4</version>
+        <trusted>True</trusted>
+        <qgis_minimum_version>3.0.0</qgis_minimum_version>
+        <qgis_maximum_version>3.99.0</qgis_maximum_version>
+        <homepage><![CDATA[http://github.com/ccrook/QGIS-MemoryLayerSaver-Plugin]]></homepage>
+        <file_name>MemoryLayerSaver.4.0.4.zip</file_name>
+        <icon>/static/packages/2018/plugin_wHMJ2Ct.png</icon>
+        <author_name><![CDATA[Chris Crook]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/MemoryLayerSaver/version/4.0.4/download/</download_url>
+        <uploaded_by><![CDATA[ccrook]]></uploaded_by>
+        <create_date>2018-10-22T14:00:00.810809</create_date>
+        <update_date>2018-10-22T14:00:00.810809</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[http://github.com/ccrook/QGIS-MemoryLayerSaver-Plugin/issues]]></tracker>
+        <repository><![CDATA[https://github.com/ccrook/QGIS-MemoryLayerSaver-Plugin]]></repository>
+        <tags><![CDATA[memory,persistent]]></tags>
+        <downloads>60517</downloads>
+        <average_vote>4.6665111163</average_vote>
+        <rating_votes>30</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin><pyqgis_plugin name="Value Tool" version="3.0.2" plugin_id="32">
+        <description><![CDATA[Display in a table or plot the values from the visible raster
+layers at the current mouse position]]></description>
+        <about><![CDATA[Display raster layer values at current mouse position]]></about>
+        <version>3.0.2</version>
+        <trusted>False</trusted>
+        <qgis_minimum_version>2.99.0</qgis_minimum_version>
+        <qgis_maximum_version>3.99.0</qgis_maximum_version>
+        <homepage><![CDATA[http://github.com/jorgealmerio/valuetool]]></homepage>
+        <file_name>valuetool.3.0.2.zip</file_name>
+        <icon>/static/packages/2019/icon_EYUTB8R.svg</icon>
+        <author_name><![CDATA[Jorge Almerio (maintainer)]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/valuetool/version/3.0.2/download/</download_url>
+        <uploaded_by><![CDATA[jorgealmerio]]></uploaded_by>
+        <create_date>2019-03-28T09:37:42.404845</create_date>
+        <update_date>2019-03-28T09:37:42.404845</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[http://github.com/jorgealmerio/valuetool/issues]]></tracker>
+        <repository><![CDATA[https://github.com/jorgealmerio/valuetool]]></repository>
+        <tags><![CDATA[raster]]></tags>
+        <downloads>117254</downloads>
+        <average_vote>4.6856473479</average_vote>
+        <rating_votes>70</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin><pyqgis_plugin name="GeoCoding" version="2.18" plugin_id="39">
+        <description><![CDATA[GeoCoding and reverse GeoCoding using Nominatim and Google web services]]></description>
+        <about><![CDATA[This plugin allows the user to search for an address and get its coordinates (geocoding) using GeoCoding using Nominatim and Google web services. It also allows to get the address of a point by clicking on the map canvas (reverse geocoding).]]></about>
+        <version>2.18</version>
+        <trusted>True</trusted>
+        <qgis_minimum_version>3.0.0</qgis_minimum_version>
+        <qgis_maximum_version>3.99.0</qgis_maximum_version>
+        <homepage><![CDATA[http://www.itopen.it/2009/06/05/geocoding-qgis-plugins-released/]]></homepage>
+        <file_name>GeoCoding.2.18.zip</file_name>
+        <icon>/static/packages/2018/geocode_icon_IjUCPY8.png</icon>
+        <author_name><![CDATA[Alessandro Pasotti]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/GeoCoding/version/2.18/download/</download_url>
+        <uploaded_by><![CDATA[elpaso]]></uploaded_by>
+        <create_date>2018-07-02T09:58:28.111710</create_date>
+        <update_date>2018-07-02T09:58:28.111710</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[https://github.com/elpaso/qgis-geocoding/issues]]></tracker>
+        <repository><![CDATA[https://github.com/elpaso/qgis-geocoding]]></repository>
+        <tags><![CDATA[address,nominatim,geocoding,geocode]]></tags>
+        <downloads>196749</downloads>
+        <average_vote>3.59445348178</average_vote>
+        <rating_votes>217</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin><pyqgis_plugin name="Group Stats" version="2.1.5" plugin_id="40">
+        <description><![CDATA[Stats and analysis for vector layers data]]></description>
+        <about><![CDATA[Migrated to QGIS 3 version by Faunalia. Sponsored by Arpa Piemonte for ERIKUS program in collaboration with Regione Piemonte e Dipartimento della Protezione Civile - Funzione Censimento Danni
+Migrato alla versione QGIS3 da Faunalia per Arpa Piemonte per il programma ERIKUS in collaborazione con Regione Piemonte e Dipartimento della Protezione Civile - Funzione Censimento Danni]]></about>
+        <version>2.1.5</version>
+        <trusted>True</trusted>
+        <qgis_minimum_version>3.0.0</qgis_minimum_version>
+        <qgis_maximum_version>3.99.0</qgis_maximum_version>
+        <homepage><![CDATA[https://github.com/borysiasty/GroupStats]]></homepage>
+        <file_name>GroupStats.2.1.5.zip</file_name>
+        <icon>/static/packages/2019/icon_rjoWGgi.png</icon>
+        <author_name><![CDATA[Rajmund Szostok. Migrated to QGIS 3 by Borys Jurgiel and Faunalia.]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/GroupStats/version/2.1.5/download/</download_url>
+        <uploaded_by><![CDATA[borysiasty]]></uploaded_by>
+        <create_date>2019-04-22T03:27:32.220982</create_date>
+        <update_date>2019-04-22T03:27:32.220982</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[https://github.com/borysiasty/GroupStats/issues]]></tracker>
+        <repository><![CDATA[]]></repository>
+        <tags><![CDATA[analysis,stats,pivot table]]></tags>
+        <downloads>184623</downloads>
+        <average_vote>4.47652752713</average_vote>
+        <rating_votes>128</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin><pyqgis_plugin name="TimeManager" version="3.2.4" plugin_id="42">
+        <description><![CDATA[Create animations visualizing spatio-temporal data]]></description>
+        <about><![CDATA[TimeManager adds time controls to QGIS. Using these time controls, you can animate vector features based on a time attribute. There is also an experimental raster layer support and support for interpolation beween point geometries. You can create animations directly in the map window and export image series.]]></about>
+        <version>3.2.4</version>
+        <trusted>True</trusted>
+        <qgis_minimum_version>3.0.0</qgis_minimum_version>
+        <qgis_maximum_version>4.0.0</qgis_maximum_version>
+        <homepage><![CDATA[http://anitagraser.com/projects/time-manager/]]></homepage>
+        <file_name>timemanager.3.2.4.zip</file_name>
+        <icon>/static/packages/2019/icon_EG8TjHG.png</icon>
+        <author_name><![CDATA[Anita Graser, Karolina Alexiou (aka carolinux)]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/timemanager/version/3.2.4/download/</download_url>
+        <uploaded_by><![CDATA[anitagraser]]></uploaded_by>
+        <create_date>2019-08-15T12:47:54.855326</create_date>
+        <update_date>2019-08-15T12:47:54.855326</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[https://github.com/anitagraser/TimeManager/issues]]></tracker>
+        <repository><![CDATA[https://github.com/anitagraser/TimeManager]]></repository>
+        <tags><![CDATA[animation,spatio-temporal,time]]></tags>
+        <downloads>158804</downloads>
+        <average_vote>4.34961993273</average_vote>
+        <rating_votes>143</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin><pyqgis_plugin name="Layers menu from project" version="1.0.3" plugin_id="43">
+        <description><![CDATA[Build layers shortcuts menus based on QGIS projects]]></description>
+        <about><![CDATA[Allow easy opening of layers maintaining their style.]]></about>
+        <version>1.0.3</version>
+        <trusted>False</trusted>
+        <qgis_minimum_version>3.4.0</qgis_minimum_version>
+        <qgis_maximum_version>3.98.0</qgis_maximum_version>
+        <homepage><![CDATA[https://github.com/xcaeag/MenuFromProject-Qgis-Plugin]]></homepage>
+        <file_name>menu_from_project.1.0.3.zip</file_name>
+        <icon>/static/packages/2019/menu_from_project_LpHmIeh.png</icon>
+        <author_name><![CDATA[Agence de l&#39;eau Adour Garonne]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/menu_from_project/version/1.0.3/download/</download_url>
+        <uploaded_by><![CDATA[xcaeag]]></uploaded_by>
+        <create_date>2019-07-31T08:15:43.793949</create_date>
+        <update_date>2019-07-31T08:15:43.793949</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[https://github.com/xcaeag/MenuFromProject-Qgis-Plugin/issues]]></tracker>
+        <repository><![CDATA[https://github.com/xcaeag/MenuFromProject-Qgis-Plugin]]></repository>
+        <tags><![CDATA[menu layer project]]></tags>
+        <downloads>53811</downloads>
+        <average_vote>4.5997700115</average_vote>
+        <rating_votes>20</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin><pyqgis_plugin name="Hotlink" version="0.8.2" plugin_id="51">
+        <description><![CDATA[Triggers actions on single click to facilitate the use of actions attached to vector layers]]></description>
+        <about><![CDATA[When the plugin is activated (button in the toolbar),
+the objects &quot;carriers&quot; of actions become &quot;clickable&quot;.]]></about>
+        <version>0.8.2</version>
+        <trusted>False</trusted>
+        <qgis_minimum_version>3.0.0</qgis_minimum_version>
+        <qgis_maximum_version>3.98.0</qgis_maximum_version>
+        <homepage><![CDATA[https://github.com/xcaeag/Hotlink-QGis-Plugin]]></homepage>
+        <file_name>Hotlink.0.8.2.zip</file_name>
+        <icon>/static/packages/2018/hotlink.png</icon>
+        <author_name><![CDATA[Xavier Culos (Agence de l&#39;eau Adour Garonne)]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/Hotlink/version/0.8.2/download/</download_url>
+        <uploaded_by><![CDATA[xcaeag]]></uploaded_by>
+        <create_date>2018-03-01T09:27:15.422765</create_date>
+        <update_date>2018-03-01T09:27:15.422765</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[https://github.com/xcaeag/Hotlink-QGis-Plugin/issues]]></tracker>
+        <repository><![CDATA[https://github.com/xcaeag/Hotlink-QGis-Plugin]]></repository>
+        <tags><![CDATA[hotlink action trigger]]></tags>
+        <downloads>41845</downloads>
+        <average_vote>4.35683165488</average_vote>
+        <rating_votes>14</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin><pyqgis_plugin name="GarminCustomMap" version="3.0" plugin_id="52">
+        <description><![CDATA[Export the current map canvas to a Garmin Custom Map (.kmz-file)]]></description>
+        <about><![CDATA[The GarminCustomMap plugin exports the current map canvas to a .kmz-file, which is compatible with Garmin`s Custom Maps format for handheld GPS units. That way individual maps styled in QGIS can be used as background (raster) maps on the compatible Garmin GPS units, like Alpha, Astro, Dakota, Oregon, Colorado, GPSMAP 62 series, GPSMAP 64 series, GPSMAP 78 series, Edge 800, Montana, Rino, eTrex® 20 and 30.]]></about>
+        <version>3.0</version>
+        <trusted>False</trusted>
+        <qgis_minimum_version>3.0.0</qgis_minimum_version>
+        <qgis_maximum_version>3.99.0</qgis_maximum_version>
+        <homepage><![CDATA[https://plugins.qgis.org/plugins/GarminCustomMap/]]></homepage>
+        <file_name>GarminCustomMap.3.0.zip</file_name>
+        <icon>/static/packages/2019/gcm_icon_VbYVlfL.png</icon>
+        <author_name><![CDATA[Stefan Blumentrath - Norwegian Institute for Nature Research (NINA)]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/GarminCustomMap/version/3.0/download/</download_url>
+        <uploaded_by><![CDATA[sbl]]></uploaded_by>
+        <create_date>2019-02-13T04:19:20.448052</create_date>
+        <update_date>2019-02-13T04:19:20.448052</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[https://github.com/NINAnor/GarminCustomMaps/issues]]></tracker>
+        <repository><![CDATA[https://github.com/NINAnor/GarminCustomMaps/]]></repository>
+        <tags><![CDATA[kmz,gps,garmin]]></tags>
+        <downloads>105633</downloads>
+        <average_vote>3.93040060521</average_vote>
+        <rating_votes>115</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin><pyqgis_plugin name="Load Them All" version="3.1.0" plugin_id="62">
+        <description><![CDATA[Loads files stored in a directory structure recursively, based on several filters]]></description>
+        <about><![CDATA[QGIS plugin that recursively loads vector and raster layers stored in a directory structure, based on several filters.]]></about>
+        <version>3.1.0</version>
+        <trusted>False</trusted>
+        <qgis_minimum_version>3.0.0</qgis_minimum_version>
+        <qgis_maximum_version>3.99.0</qgis_maximum_version>
+        <homepage><![CDATA[http://geotux.tuxfamily.org/index.php/en/geo-blogs/item/264-plugin-load-them-all-para-quantum-gis]]></homepage>
+        <file_name>loadthemall.3.1.0.zip</file_name>
+        <icon>/static/packages/2019/icon_gcEKENt.png</icon>
+        <author_name><![CDATA[Germán Carrillo (GeoTux)]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/loadthemall/version/3.1.0/download/</download_url>
+        <uploaded_by><![CDATA[gcarrillo]]></uploaded_by>
+        <create_date>2019-02-17T23:42:04.058082</create_date>
+        <update_date>2019-02-17T23:42:04.058082</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[https://github.com/gacarrillor/loadthemall/issues]]></tracker>
+        <repository><![CDATA[https://github.com/gacarrillor/loadthemall]]></repository>
+        <tags><![CDATA[raster,legend,recursively,geopackage,layer tree,toc,qml,filter,directory,layers,vector,style,shapefile,load]]></tags>
+        <downloads>36225</downloads>
+        <average_vote>4.42290681128</average_vote>
+        <rating_votes>26</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin><pyqgis_plugin name="Remove empty layers from the map" version="3.0" plugin_id="63">
+        <description><![CDATA[&#39;Cleans&#39; the layer list widget (legend) by removing empty layers]]></description>
+        <about><![CDATA[&#39;Cleans&#39; the layer list widget (legend) by removing empty layers]]></about>
+        <version>3.0</version>
+        <trusted>False</trusted>
+        <qgis_minimum_version>3.0.0</qgis_minimum_version>
+        <qgis_maximum_version>3.99.0</qgis_maximum_version>
+        <homepage><![CDATA[http://geotux.tuxfamily.org/index.php/en/geo-blogs/item/297-plugin-remover-capas-vacias-qgis]]></homepage>
+        <file_name>RemoveEmptyLayers.3.0.zip</file_name>
+        <icon>/static/packages/2018/icon_default.png</icon>
+        <author_name><![CDATA[Germán Carrillo (GeoTux)]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/RemoveEmptyLayers/version/3.0/download/</download_url>
+        <uploaded_by><![CDATA[gcarrillo]]></uploaded_by>
+        <create_date>2018-03-19T07:45:48.669337</create_date>
+        <update_date>2018-03-19T07:45:48.669337</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[https://github.com/gacarrillor/RemoveEmptyLayers/issues]]></tracker>
+        <repository><![CDATA[http://websvn.tuxfamily.org/listing.php?repname=tuxgis/geotux&amp;path=/trunk/removeemptylayers/]]></repository>
+        <tags><![CDATA[toc,legend,empty,remove,layers,vector]]></tags>
+        <downloads>16070</downloads>
+        <average_vote>4.66635557629</average_vote>
+        <rating_votes>15</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin><pyqgis_plugin name="Mask" version="1.9.0" plugin_id="65">
+        <description><![CDATA[Help to create mask, filter labels in it]]></description>
+        <about><![CDATA[This plugin allows user to quickly transform a polygon selection into a map masking layer or a region of interest, following symbology choice. The plugin allows also to spatially filter labeling of other layer, so that labels will only appear in the Region of Interest.]]></about>
+        <version>1.9.0</version>
+        <trusted>False</trusted>
+        <qgis_minimum_version>3.4.0</qgis_minimum_version>
+        <qgis_maximum_version>3.98.0</qgis_maximum_version>
+        <homepage><![CDATA[https://github.com/aeag/mask]]></homepage>
+        <file_name>mask.1.9.0.zip</file_name>
+        <icon>/static/packages/2019/aeag_mask_P13faFp.png</icon>
+        <author_name><![CDATA[Hugo Mercier (Oslandia) - Xavier Culos (Agence de l&#39;eau Adour Garonne) - Régis Haubourg (Oslandia)]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/mask/version/1.9.0/download/</download_url>
+        <uploaded_by><![CDATA[xcaeag]]></uploaded_by>
+        <create_date>2019-07-17T07:09:42.468130</create_date>
+        <update_date>2019-07-17T07:09:42.468130</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[https://github.com/aeag/mask/issues]]></tracker>
+        <repository><![CDATA[http://plugins.qgis.org/plugins/mask/]]></repository>
+        <tags><![CDATA[masque,étiquettes,roi,filter labels,mask,zone d&#39;intérêt]]></tags>
+        <downloads>110782</downloads>
+        <average_vote>4.29481673312</average_vote>
+        <rating_votes>78</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin><pyqgis_plugin name="lizmap" version="3.0.3" plugin_id="72">
+        <description><![CDATA[Publish QGIS maps to the Web via Lizmap Web Client, by 3liz.com]]></description>
+        <about><![CDATA[Publish QGIS maps to the Web via Lizmap Web Client, by 3liz.com. Documentation : https://docs.lizmap.com]]></about>
+        <version>3.0.3</version>
+        <trusted>True</trusted>
+        <qgis_minimum_version>2.99.0</qgis_minimum_version>
+        <qgis_maximum_version>3.99.0</qgis_maximum_version>
+        <homepage><![CDATA[https://github.com/3liz/lizmap-plugin]]></homepage>
+        <file_name>lizmap.3.0.3.zip</file_name>
+        <icon>/static/packages/2019/icon_EgW06FY.png</icon>
+        <author_name><![CDATA[3liz]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/lizmap/version/3.0.3/download/</download_url>
+        <uploaded_by><![CDATA[kimaidou]]></uploaded_by>
+        <create_date>2019-05-15T10:23:10.668929</create_date>
+        <update_date>2019-05-15T10:23:10.668929</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[https://github.com/3liz/lizmap-plugin/issues]]></tracker>
+        <repository><![CDATA[https://github.com/3liz/lizmap-plugin]]></repository>
+        <tags><![CDATA[server,wms,publication,webmapping,web,lizmap]]></tags>
+        <downloads>79215</downloads>
+        <average_vote>4.59085692208</average_vote>
+        <rating_votes>88</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin><pyqgis_plugin name="Profile tool" version="4.1.7" plugin_id="87">
+        <description><![CDATA[Plots terrain profile]]></description>
+        <about><![CDATA[This tool plots profile lines from raster layers or point vector layer with elevation field. Supports multiple lines as well as graph export to svg, pdf, png or csv file. Supports 3D polyline export to dxf.]]></about>
+        <version>4.1.7</version>
+        <trusted>False</trusted>
+        <qgis_minimum_version>2.14.0</qgis_minimum_version>
+        <qgis_maximum_version>3.99.0</qgis_maximum_version>
+        <homepage><![CDATA[https://github.com/PANOimagen/profiletool]]></homepage>
+        <file_name>profiletool.4.1.7.zip</file_name>
+        <icon>/static/packages/2019/profileIcon_ZbHwduK.png</icon>
+        <author_name><![CDATA[Borys Jurgiel - Patrice Verchere - Etienne Tourigny - Javier Becerra]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/profiletool/version/4.1.7/download/</download_url>
+        <uploaded_by><![CDATA[robertopanoi]]></uploaded_by>
+        <create_date>2019-07-12T06:06:27.220167</create_date>
+        <update_date>2019-07-12T06:06:27.220167</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[https://github.com/PANOimagen/profiletool/issues]]></tracker>
+        <repository><![CDATA[https://github.com/PANOimagen/profiletool]]></repository>
+        <tags><![CDATA[raster,vector,profile]]></tags>
+        <downloads>408207</downloads>
+        <average_vote>4.19284216842</average_vote>
+        <rating_votes>280</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin><pyqgis_plugin name="Midvatten" version="1.6.0" plugin_id="92">
+        <description><![CDATA[A toolset that makes QGIS an interface for editing/viewing hydrogeological observational data (drillings, water levels, seismic data etc) stored in a sqlite db.]]></description>
+        <about><![CDATA[The plugin is a toolset for using QGIS to manage observational data from hydrogeological investigations. Data is stored in a spatialite database.]]></about>
+        <version>1.6.0</version>
+        <trusted>False</trusted>
+        <qgis_minimum_version>3.4.5</qgis_minimum_version>
+        <qgis_maximum_version>3.99.0</qgis_maximum_version>
+        <homepage><![CDATA[https://github.com/jkall/qgis-midvatten-plugin/wiki]]></homepage>
+        <file_name>midvatten.1.6.0.zip</file_name>
+        <icon>/static/packages/2019/MidvSettings_OzJ0EIa.png</icon>
+        <author_name><![CDATA[Josef Källgården, Henrik Spångmyr]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/midvatten/version/1.6.0/download/</download_url>
+        <uploaded_by><![CDATA[joskal]]></uploaded_by>
+        <create_date>2019-03-19T16:13:53.639710</create_date>
+        <update_date>2019-03-19T16:13:53.639710</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[https://github.com/jkall/qgis-midvatten-plugin/issues?state=open]]></tracker>
+        <repository><![CDATA[https://github.com/jkall/qgis-midvatten-plugin]]></repository>
+        <tags><![CDATA[borehole,stratigraphy,hydrogeology,time series,groundwater,piper diagram]]></tags>
+        <downloads>24643</downloads>
+        <average_vote>4.34273306477</average_vote>
+        <rating_votes>35</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin><pyqgis_plugin name="qNote" version="2.0" plugin_id="122">
+        <description><![CDATA[Save notes in QGIS projects]]></description>
+        <about><![CDATA[qNote is plugin for saving text notes in QGIS project files]]></about>
+        <version>2.0</version>
+        <trusted>False</trusted>
+        <qgis_minimum_version>3.0.0</qgis_minimum_version>
+        <qgis_maximum_version>3.99.0</qgis_maximum_version>
+        <homepage><![CDATA[http://www.gis-support.pl/qnote-notatki-w-qgis/]]></homepage>
+        <file_name>qNote.2.0.zip</file_name>
+        <icon></icon>
+        <author_name><![CDATA[GIS Support, Piotr Pociask]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/qNote/version/2.0/download/</download_url>
+        <uploaded_by><![CDATA[p0cisk]]></uploaded_by>
+        <create_date>2018-11-09T14:41:12.618245</create_date>
+        <update_date>2018-11-09T14:41:12.618245</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[https://github.com/p0cisk/qNote/issues]]></tracker>
+        <repository><![CDATA[https://github.com/p0cisk/qNote]]></repository>
+        <tags><![CDATA[project]]></tags>
+        <downloads>15472</downloads>
+        <average_vote>4.72684301427</average_vote>
+        <rating_votes>11</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin><pyqgis_plugin name="mmqgis" version="2019.6.11" plugin_id="135">
+        <description><![CDATA[A collection of QGIS vector layer operation plugins]]></description>
+        <about><![CDATA[MMQGIS is a set of Python plugins for manipulating vector map layers in Quantum GIS: CSV input/output/join, geocoding, geometry conversion, buffering, hub analysis, simplification, column modification, and simple animation. MMQGIS provides an alternative to the Processing toolbox, with verbose progress reporting, an intuitive user interface, direct shapefile/CSV-file access, and some additional capabilities missing from other plugin sets.]]></about>
+        <version>2019.6.11</version>
+        <trusted>False</trusted>
+        <qgis_minimum_version>2.99.0</qgis_minimum_version>
+        <qgis_maximum_version>3.99.0</qgis_maximum_version>
+        <homepage><![CDATA[http://michaelminn.com/linux/mmqgis]]></homepage>
+        <file_name>mmqgis.2019.6.11.zip</file_name>
+        <icon></icon>
+        <author_name><![CDATA[Michael Minn]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/mmqgis/version/2019.6.11/download/</download_url>
+        <uploaded_by><![CDATA[michaelminn]]></uploaded_by>
+        <create_date>2019-06-11T07:40:23.076222</create_date>
+        <update_date>2019-06-11T07:40:23.076222</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[https://github.com/michaelminn/mmqgis/issues]]></tracker>
+        <repository><![CDATA[https://github.com/michaelminn/mmqgis]]></repository>
+        <tags><![CDATA[merge,animate,delete,sort,vector]]></tags>
+        <downloads>739311</downloads>
+        <average_vote>4.59505424277</average_vote>
+        <rating_votes>284</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin><pyqgis_plugin name="PgVersion" version="3.0.7" plugin_id="181">
+        <description><![CDATA[Client for the Postgres Versioning System pgvs]]></description>
+        <about><![CDATA[Sourcepole AG - Linux &amp; Open Source Solutions, Weberstrasse 5, 8004 Zurich, Switzerland]]></about>
+        <version>3.0.7</version>
+        <trusted>True</trusted>
+        <qgis_minimum_version>3.0.0</qgis_minimum_version>
+        <qgis_maximum_version>3.99.0</qgis_maximum_version>
+        <homepage><![CDATA[https://github.com/sourcepole/pgversion]]></homepage>
+        <file_name>pgversion.3.0.7.zip</file_name>
+        <icon></icon>
+        <author_name><![CDATA[Horst Duester Sourcepole AG Zürich]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/pgversion/version/3.0.7/download/</download_url>
+        <uploaded_by><![CDATA[hdus]]></uploaded_by>
+        <create_date>2019-05-26T06:51:19.186530</create_date>
+        <update_date>2019-05-26T06:51:19.186530</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[https://github.com/sourcepole/pgversion/issues]]></tracker>
+        <repository>
